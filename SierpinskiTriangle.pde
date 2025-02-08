@@ -1,5 +1,4 @@
 public void s(int x, int y, int l){
-  System.out.println(l);
   if(l<=2){return;}
   triangle(x,y,x+l/2,y+l,x+l,y);
   s(x,y,l/2);
