@@ -9,8 +9,9 @@ public void s(int x, int y, int l){
 
 public void setup(){
   size(500, 500);
-  s(0,0,500);
 }
 
 public void draw(){
+  background(255);
+  s(0,0,500);
 }
